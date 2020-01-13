@@ -160,11 +160,11 @@ considered only as an estimation and can not be exact.
 
 # Contributing
 
-So you are interested in contributing to this project? Please see [CONTRIBUTING.md](https://github.com/weyoss/guidelines/blob/master/CONTRIBUTIONS.md).
+So you are interested in contributing to this project? Please see [CONTRIBUTING.md](https://github.com/tawk/guidelines/blob/master/CONTRIBUTIONS.md).
 
 # License
 
-[MIT](https://github.com/weyoss/throtty/blob/master/LICENSE)
+[MIT](https://github.com/tawk/throtty/blob/master/LICENSE)
 
 # Testing notes
 
