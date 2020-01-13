@@ -2,14 +2,14 @@
 
 Throtty is an efficient rate limiter for Node.js. Useful when you need to rate limit/throttle
 API clients or any other task that need to be rate limited. Can be used in standalone mode using in-memory storage or
-backed by a IoRedis server.
+backed by a Redis server.
 
 # Features
 
 * Based on rolling windows with minimum delay between successive requests.
-* Atomic. When backed by ioredis, atomicity is guaranteed with the help of transactions.
-* Concurrency proof. When backed by ioredis, `Throtty` can handle multiple requests which can be performed in parallel.
-* Distributed. When backed by ioredis, multiple `Throtty` instances can be run from different hosts.
+* Atomic. When backed by redis, atomicity is guaranteed with the help of transactions.
+* Concurrency proof. When backed by redis, `Throtty` can handle multiple requests which can be performed in parallel.
+* Distributed. When backed by redis, multiple `Throtty` instances can be run from different hosts.
 
 # Installation
 
