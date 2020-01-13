@@ -165,3 +165,7 @@ So you are interested in contributing to this project? Please see [CONTRIBUTING.
 # License
 
 [MIT](https://github.com/weyoss/throtty/blob/master/LICENSE)
+
+# Testing notes
+
+Tests use `async/await` which is available from Node 8
