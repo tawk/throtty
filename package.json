@@ -27,7 +27,7 @@
     "lint": "eslint src/monitor/assets src/*.js",
     "fix": "eslint src/monitor/assets src --fix"
   },
-  "author": "Tawk",
+  "author": "tawk.to",
   "license": "MIT",
   "keywords": [
     "rate",
