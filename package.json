@@ -1,7 +1,7 @@
 {
   "name": "throtty",
   "description": "Yet another rolling window rate limiter.",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "main": "index.js",
   "dependencies": {
     "bluebird": "3.5.1",
@@ -16,9 +16,8 @@
     "eslint-plugin-import": "2.2.0",
     "eslint-plugin-promise": "3.4.1",
     "eslint-plugin-standard": "2.0.1",
+    "ioredis": "^4.14.1",
     "mocha": "^6.0.2",
-    "redis": "2.8.0",
-    "redis-mock": "0.21.0",
     "sinon": "1.17.7",
     "sinon-chai": "2.11.0",
     "uuid": "3.2.1"
@@ -28,7 +27,7 @@
     "lint": "eslint src/monitor/assets src/*.js",
     "fix": "eslint src/monitor/assets src --fix"
   },
-  "author": "Weyoss <weyoss@protonmail.com>",
+  "author": "tawk.to",
   "license": "MIT",
   "keywords": [
     "rate",
@@ -44,10 +43,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/weyoss/throtty.git"
+    "url": "https://github.com/tawk/throtty.git"
   },
-  "homepage": "https://github.com/weyoss/throtty",
+  "homepage": "https://github.com/tawk/throtty",
   "bugs": {
-    "url": "https://github.com/weyoss/throtty/issues"
+    "url": "https://github.com/tawk/throtty/issues"
   }
 }
