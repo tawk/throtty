@@ -1,11 +1,11 @@
 'use strict';
 
 const sinon = require('sinon');
-const redis = require('redis');
+const Redis = require('ioredis');
 const config = require('../common/config');
 const commonTests = require('../common/tests');
 
-const client = redis.createClient(config.redis);
+const client = new Redis(config.redis);
 
 beforeEach(function (done) {
     client.flushall(function (err) {
