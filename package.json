@@ -27,7 +27,7 @@
     "lint": "eslint src/monitor/assets src/*.js",
     "fix": "eslint src/monitor/assets src --fix"
   },
-  "author": "Weyoss <weyoss@protonmail.com>",
+  "author": "Tawk",
   "license": "MIT",
   "keywords": [
     "rate",
@@ -43,10 +43,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/weyoss/throtty.git"
+    "url": "https://github.com/tawk/throtty.git"
   },
-  "homepage": "https://github.com/weyoss/throtty",
+  "homepage": "https://github.com/tawk/throtty",
   "bugs": {
-    "url": "https://github.com/weyoss/throtty/issues"
+    "url": "https://github.com/tawk/throtty/issues"
   }
 }
