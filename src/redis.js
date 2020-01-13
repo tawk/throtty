@@ -16,7 +16,7 @@ class RedisRateLimiter extends RateLimiter {
     constructor(options) {
         super(options);
         if (!options.hasOwnProperty('redis')) throw new Error('options.redis parameter is required');
-        if (typeof options.redis !== 'object' || options.redis.constructor.name !== 'RedisClient') {
+        if (typeof options.redis !== 'object' || options.redis.constructor.name !== 'Redis') {
             throw new Error('options.redis must be an instance of RedisClient');
         }
         this.redis = options.redis;
@@ -38,7 +38,7 @@ class RedisRateLimiter extends RateLimiter {
         multi.pexpire(key, this.interval / 1000);
         multi.exec((err, results) => {
             if (err) cb(err);
-            else cb(null, results[2].map(Number));
+            else cb(null, results[2][1].map(Number));
         });
     }
 }
